@@ -62,3 +62,60 @@ set_io -nowarn LED5       21
 set_io -nowarn BTN1       20
 set_io -nowarn BTN2       19
 set_io -nowarn BTN3       18
+
+# 7 Segment
+set_io -nowarn 7SAA        4
+set_io -nowarn 7SAE        2
+set_io -nowarn 7SAB       47
+set_io -nowarn 7SAF       45
+set_io -nowarn 7SAC        3
+set_io -nowarn 7SAG       48
+set_io -nowarn 7SAD       46
+set_io -nowarn 7SCA       44
+
+set_io -nowarn seg[0]      4
+set_io -nowarn seg[1]      2
+set_io -nowarn seg[2]     47
+set_io -nowarn seg[3]     45
+set_io -nowarn seg[4]      3
+set_io -nowarn seg[5]     48
+set_io -nowarn seg[6]     46
+set_io -nowarn ca         44
+
+# DIP-Switch
+set_io -nowarn DIP1       43
+set_io -nowarn DIP2       38
+set_io -nowarn DIP3       34
+set_io -nowarn DIP4       31
+set_io -nowarn DIP5       42
+set_io -nowarn DIP6       36
+set_io -nowarn DIP7       32
+set_io -nowarn DIP8       28
+
+set_io -nowarn sw[0]     43
+set_io -nowarn sw[1]     38
+set_io -nowarn sw[2]     34
+set_io -nowarn sw[3]     31
+set_io -nowarn sw[4]     42
+set_io -nowarn sw[5]     36
+set_io -nowarn sw[6]     32
+set_io -nowarn sw[7]     28
+
+# DVI P-MOD assignments
+
+set_io -nowarn R0   8
+set_io -nowarn R1   2
+set_io -nowarn R2   3
+set_io -nowarn R3   4
+set_io -nowarn G0   44
+set_io -nowarn G1   45
+set_io -nowarn G2   46
+set_io -nowarn G3   47
+set_io -nowarn B0   34
+set_io -nowarn B1   36
+set_io -nowarn B2   42
+set_io -nowarn B3   43
+set_io -nowarn CK   38
+set_io -nowarn HS   31
+set_io -nowarn VS   28
+set_io -nowarn DE   32
